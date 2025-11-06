@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galvão Tech - Desenvolvedor Full-Stack</title>
+    <meta name="description" content="Site da empresa de tecnologia Galvão Tech">
+    <link rel="icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="imagens/galvao-tech-logo.jpg" alt="Logo Galvão Tech">
+                    <span class="nome-empresa">Galvão Tech</span>
+                </a>
+            </div>
+            <div class="nav-links">
+                <ul class="menu-navegacao">
+                    <li><a href="#sobre-mim">Sobre Mim</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Transformando Ideias em Aplicações Web de Alta Performance</h1>
+        <p>
+            Olá, eu sou Yuri Galvão. Bem-vindo à Galvão Tech, meu portfólio 
+            de desenvolvimento de software e soluções tecnológicas.
+        </p>
+        <a href="#projetos" class="btn-principal">Veja meus projetos</a>
+    </section>
+
+    <main>
+        <section id="sobre-mim">
+            <img src="imagens/minha-foto.jpg" alt="Foto de Yuri Galvao">
+            <div class="sobre-mim-texto">
+                <h2>Sobre Mim</h2>
+                <p>
+                    Sou um Desenvolvedor <strong>Full-Stack</strong> apaixonado por criar 
+                    soluções <strong>lógicas</strong> e <strong>eficientes</strong>.
+                </p>
+                <p>
+                    Minha especialidade é construir o Backend com a robustez do 
+                    <strong>Python</strong> e <strong>Django</strong>, e criar 
+                    interfaces rápidas com <strong><abbr title="HyperText Markup Language">HTML</abbr></strong>, <strong><abbr title="Cascading Style Sheets">CSS</abbr></strong> 
+                    e <strong>JavaScript puro</strong>.
+                </p>
+                <p>
+                    Diferente de plataformas prontas, eu construo 
+                    <strong>soluções sob medida</strong>, focando na performance e 
+                    na segurança. Meu trabalho vai do código à produção, entregando 
+                    projetos completos em servidores <strong>Linux</strong>, 
+                    configurados com <strong>Nginx</strong> e <strong><abbr title="Hypertext Transfer Protocol Secure">HTTPS</abbr></strong>.
+                </p>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <h2>Meus Projetos</h2>
+            <div class="projetos-container">
+                <button class="btn-seta btn-esquerda">❮</button>
+                <div class="projetos-grid">
+                    <article class="card-projeto">
+                        <img src="imagens/print-kiosk-manager.jpg" alt="Tela de login do sistema Kiosk Manager">
+                        <h3>Kiosk Manager (PDV)</h3>
+                        <p>Sistema de Ponto de Venda desenvolvido em <strong>Django</strong> e <strong>PostgreSQL</strong> com interface moderna e intuitiva.</p>
+                    </article>
+
+                    <article class="card-projeto">
+                        <img alt="Tela inicial do E-commerce Baronesa">
+                        <h3>E-commerce Baronesa Decorações</h3>
+                        <p>(Em andamento) Loja virtual completa com integração de pagamentos e painel administrativo robusto.</p>
+                    </article>
+                </div>
+                <button class="btn-seta btn-direita">❯</button>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Vamos Conversar?</h2>
+            <div class="contato-body">
+                <div>
+                    <p>
+                        Gostou do que viu? <br><br>
+                        Preencha o formulário ao lado para entrarmos em contato e discutirmos seu próximo projeto.
+                    </p>
+                </div>
+                <form action="https://formspree.io/f/xyzbrwkr" method="POST"> 
+                    <label for="id-nome">Seu Nome:</label>
+                    <input type="text" id="id-nome" name="nome_cliente" required>
+
+                    <label for="id-email">Seu E-mail:</label>
+                    <input type="email" id="id-email" name="email_cliente" required>
+
+                    <label for="id-mensagem">Sua Mensagem:</label>
+                    <textarea id="id-mensagem" name="mensagem" rows="5" required></textarea>
+
+                    <button type="submit">Enviar Mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="links-sociais">
+            <a href="https://github.com/yurigalvao" target="_blank">GitHub</a> | 
+            <a href="https://www.linkedin.com/in/yuri-galvão" target="_blank">LinkedIn</a> |
+            <a href="https://www.instagram.com/galvao_tech" target="_blank">@galvao_tech</a> 
+        </div>
+        <p>&copy; 2025 Galvão Tech. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
